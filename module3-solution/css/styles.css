@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(88, 35, 68);
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+}
+/** HEADER **/
+#header-nav {
+  background-color: rgb(106, 177, 144);
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    color: beige;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(11, 10, 14);
+    margin-top: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #140d0f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  #nav-list {
+    margin-top: 10px;
+    color: rgb(88, 35, 68);
+    text-align: center;
+    font-size: 1.8em;
+  }
+  #nav-list a:hover {
+    background: beige;
+  }
+
+  #menu {
+    text-align: center;
+    color: beige;
+    text-shadow: 1px 1px 1px rgb(156, 156, 156);
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 2.7em;
+  }
+
+#main-content {
+  position: relative;
+  width: 100%;
+}
+
+
+  #menu-tile span, #specials span, #Lunch span {
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    color: rgb(15, 9, 34);
+  }
+
+  #menu-tile p, #specials p, #Lunch p {
+    width: 100%;
+    text-align: left;
+  }
+
+  #menu-tile {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    color: rgb(32, 38, 121);
+    background-color: rgb(106, 177, 144);
+    width: 100%;
+  }
+
+  #specials {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    color: rgb(32, 38, 121);
+    background-color: rgb(106, 177, 144);
+    width: 100%;
+  }
+
+  #Lunch {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    color: rgb(32, 38, 121);
+    background-color: rgb(106, 177, 144);
+    width: 100%;
+  }
